@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1fbc3abf588d4002f206dc8dbb2c35b6",
+    "revision": "8116ea87da4a861e5df6c679afe7317d",
     "url": "/alan-ai-news-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alan-ai-news-app/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "ecdb978ec7dae0d4f936",
+    "revision": "9f4fecdf9cc341ed15d6",
     "url": "/alan-ai-news-app/static/css/main.2ef04afc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alan-ai-news-app/static/js/2.0de7d3ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ecdb978ec7dae0d4f936",
-    "url": "/alan-ai-news-app/static/js/main.1b012de2.chunk.js"
+    "revision": "9f4fecdf9cc341ed15d6",
+    "url": "/alan-ai-news-app/static/js/main.371ad967.chunk.js"
   },
   {
     "revision": "338f4b3a132cb22354c5",

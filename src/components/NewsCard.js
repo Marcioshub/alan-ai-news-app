@@ -19,7 +19,6 @@ export default function NewsCard({
   }, []);
 
   useEffect(() => {
-    console.log("index:", i, ", active article:", activeArticle);
     if (i === activeArticle && elRefs[activeArticle]) {
       scrollToRef(elRefs[activeArticle]);
     }
@@ -28,7 +27,12 @@ export default function NewsCard({
   return (
     <Col ref={elRefs[i]}>
       <FadeIn>
-        <Card className="m-2 mx-auto" style={{ width: "25rem", height: 500 }}>
+        <Card
+          bg={activeArticle === i ? "primary" : null}
+          key={i}
+          className="m-2 mx-auto"
+          style={{ width: "25rem", height: 500 }}
+        >
           <Card.Header>
             <div style={{ display: "flex" }}>
               <small style={{ flex: 1 }}>
@@ -53,7 +57,7 @@ export default function NewsCard({
           <Card.Footer className="text-muted">
             <div style={{ display: "flex" }}>
               <Button
-                style={{ flex: 1 }}
+                style={{ flex: 1, margin: 5 }}
                 variant="light"
                 href={url}
                 target="_blank"
@@ -61,7 +65,7 @@ export default function NewsCard({
                 Learn More
               </Button>
               <Button
-                style={{ flex: 1 }}
+                style={{ flex: 1, margin: 5 }}
                 variant="light"
                 href={url}
                 target="_blank"

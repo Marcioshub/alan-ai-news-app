@@ -71,7 +71,12 @@ export default function NewsCards({ articles, activeArticle }) {
   return (
     <>
       {articles.map((article, i) => (
-        <NewsCard article={article} activeArticle={activeArticle} i={i} />
+        <NewsCard
+          key={i}
+          article={article}
+          activeArticle={activeArticle}
+          i={i}
+        />
       ))}
     </>
   );

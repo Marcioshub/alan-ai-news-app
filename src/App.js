@@ -46,7 +46,7 @@ function App() {
               className="my-5"
               height={350}
               style={{ width: "100%" }}
-              src="https://alan.app/voice/images/previews/preview.jpg"
+              src="/images/alan-logo.png"
               alt="alanlogo"
             />
           </FadeIn>

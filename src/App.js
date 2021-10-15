@@ -5,6 +5,7 @@ import { Container, Row } from "react-bootstrap";
 import NewsCards from "./components/NewsCards";
 import FadeIn from "react-fade-in";
 import "./App.css";
+import logo from "./images/logo.jpeg";
 
 function App() {
   const [newsArticles, setNewsArticles] = useState([]);
@@ -40,13 +41,13 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <Row>
+        <Row style={{ display: "block" }}>
           <FadeIn>
             <img
               className="my-5"
               height={350}
               style={{ width: "100%" }}
-              src="/images/alan-logo.png"
+              src={logo}
               alt="alanlogo"
             />
           </FadeIn>
